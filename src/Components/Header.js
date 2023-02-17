@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
+import DateTime from './DateTime';
 import './Header.css'
 
 const Header = (props) => {
@@ -14,7 +15,7 @@ const Header = (props) => {
                 <div><h1>Room 304-1</h1></div>
                 <div><h4>Extension 8070</h4></div>
             </div>
-            <div><h1>Time</h1></div>
+            <div><h3><DateTime /></h3></div>
         </div>
       </Card>
     </div>

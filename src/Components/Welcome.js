@@ -3,10 +3,10 @@ import MainContainer from './MainContainer'
 
 const Welcome = ({title1}) => {
   return (
-    <MainContainer title1={title1}>
-        <div className='text-center p-3 rounded my-2 bgc'>
+    <MainContainer title1={title1} height1={'300px'}>
+        <div className='text-center p-3 rounded my-2 bgc' style={{height: '230px'}}>
             <h2 style={{color:'white'}}>Welcome baby</h2>
-            <div style={{color:'#cf5369', fontSize: '50px'}}><h1>Railey!</h1></div>
+            <div style={{color:'#e55e76', fontSize: '70px', fontWeight: 'bold'}}>Railey</div>
         </div>
     </MainContainer>
   )

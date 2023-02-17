@@ -7,6 +7,12 @@ import Header from './Header'
 import './Dashboard.css'
 import Welcome from './Welcome';
 import CareTeam from './CareTeam';
+import NextMeds from './NextMeds';
+import Rounds from './Rounds';
+import Flags from './Flags';
+import Weather from './Weather';
+import Footer from './Footer'
+import LogoComp from './LogoComp';
 
 const dashboard = () => {
     // const t1 = [{name:'Vcharan',title:'Dr'}, {name:'Adam Pulmonologist', title: 'RY1'}];
@@ -21,25 +27,27 @@ const dashboard = () => {
             </Row>
 
             <Row>
-                <Col xs={2}>main</Col>
+                <Col xs={2}><Flags title1={"FLAGS"}/></Col>
                 <Col>
                     <Row>
-                        <Col><div className='main-card p-2'><CardComp title="CARE TEAM" c={<CareTeam />} /></div></Col>
-                        <Col><div className='main-card'><CardComp title="NEXT MEDS" c={""} /></div></Col>
-                        <Col><Col><div className='main-card'><CardComp title="WEATHER" c={""} /></div></Col></Col>
+                        <Col><CareTeam title1={"CARE TEAM"} /></Col>
+                        <Col><NextMeds title1={"NEXT MEDS"} /></Col>
+                        <Col><Weather title1={"WEATHER"} /></Col>
                     </Row>
                     <Row>
-                        <Col><Col><div className='main-card'><CardComp title="ROUNDS" c={""} /></div></Col></Col>
-                        <Col><Welcome title1={"Welcome"} /></Col>
+                        <Col><Rounds title1={"ROUNDS"} /></Col>
+                        <Col><Welcome title1={"WELCOME"} /></Col>
                         <Col><Col><div className='main-card'><CardComp title="REHAB" c={""} /></div></Col></Col>
                     </Row>
                 </Col>
             </Row>
 
+            <footer style={{marginTop: '180px'}}>
             <Row>
-                <Col>4-1</Col>
-                <Col xs={2}>4-2</Col>
+                <Col><Footer /></Col>
+                <Col xs={1}><LogoComp /></Col>
             </Row>
+            </footer>
         </Container>
     </div>
   )
