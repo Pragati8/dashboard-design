@@ -7,7 +7,7 @@ import { BsPerson } from "react-icons/bs";
 
 const Rounds = ({title1}) => {
   return (
-    <MainContainer title1={title1} height1={'300px'}>
+    <MainContainer title1={title1} height1={'37vh'}>
         <div className='rounded my-2 bgc'>
             <Row>
                 <Col xs={3}><BsPerson style={{fontSize: '100px'}} /></Col>

@@ -2,10 +2,9 @@ import React from 'react'
 import MainContainer from './MainContainer';
 
 const CareTeam = ({title1}) => {
-    const t1 = [{name:'Vcharan',title:'Dr'}, {name:'Adam Pulmonologist', title: 'RY1'}];
+    const t1 = [{name:'Vcharan',title:'Dr'}, {name:'Adam Pulmonologist', title: 'RY1'}, {name:'Vcharan',title:'Dr'}, {name:'Adam Pulmonologist', title: 'RY1'}];
   return (
-    <div>
-        <MainContainer title1={title1} height1={'300px'}>
+        <MainContainer className='scroll1' title1={title1} height1={'37vh'} style={{overflow: 'auto'}}>
             {
                 t1.map((ele) => {
                     return(
@@ -17,7 +16,6 @@ const CareTeam = ({title1}) => {
                 })
             }
         </MainContainer>
-    </div>
   )
 }
 

@@ -7,8 +7,7 @@ import './Header.css'
 const Header = (props) => {
     const variant = 'dark'
   return (
-    <div>
-      <Card bg={variant} text={'light'} key={variant} className="m-1" style={{height: '90px'}}>
+    <div className='px-2' style={{height: '10vh', backgroundColor: 'black', color: 'white', borderRadius: '10px'}}>
         <div className='flex-container'>
             <div><h1>DFB</h1></div>
             <div className='flex-container2'>
@@ -17,7 +16,6 @@ const Header = (props) => {
             </div>
             <div><h3><DateTime /></h3></div>
         </div>
-      </Card>
     </div>
   )
 }

@@ -16,18 +16,18 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className='py-1 m-0' style={{backgroundColor: '#00000045', height: '55px', borderRadius: '10px', justifyContent: 'center'}}>
-        <AiOutlineArrowLeft className='p-2 m-1' style={{backgroundColor: '#00000059', fontSize: '45px', borderRadius: '50px'}}/>
-        <BiHome className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <SiNetflix className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <MdBrightnessMedium className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <AiOutlineUnlock className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/><BiHome className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <BsBrightnessHigh className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/><BiHome className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <BsMic className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <SlGraduation className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <BiVideo className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <AiOutlineArrowRight className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
-        <BsImage className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
+    <div className='py-3 px-3' style={{backgroundColor: '#00000045', height: '8vh', borderRadius: '10px'}}>
+        <AiOutlineArrowLeft className='' style={{backgroundColor: '#00000059', fontSize: '50px', borderRadius: '50px'}}/>
+        <BiHome className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <SiNetflix className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <MdBrightnessMedium className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <AiOutlineUnlock className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/><BiHome className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
+        <BsBrightnessHigh className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/><BiHome className='p-2 m-1' style={{backgroundColor: 'white', fontSize: '45px', borderRadius: '50px'}}/>
+        <BsMic className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <SlGraduation className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <BiVideo className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <AiOutlineArrowRight className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
+        <BsImage className='p-2 mx-2' style={{backgroundColor: 'white', fontSize: '50px', borderRadius: '50px'}}/>
     </div>
   )
 }

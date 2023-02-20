@@ -7,10 +7,8 @@ const Flags = ({title1}) => {
       {name:"MEN1", bgc: "white", c: "black"},
       {name:"BDC TEST", bgc: "green", c: "white"},
       {name:"TESTBH", bgc: "lightpink", c: "black"}]
-    // const t1 = ["COVID", "MEN1", "BDC TEST", "TESTBH"];
-    // const color1 = ["pink", "white", "green", "peach"]
   return (
-    <MainContainer title1={title1}>
+    <MainContainer title1={title1} height1={"76vh"}>
         {
                 obj.map((ele) => {
                     return(

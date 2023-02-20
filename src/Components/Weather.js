@@ -6,14 +6,14 @@ import { WiCloudyWindy } from "react-icons/wi";
 
 const Welcome = ({title1}) => {
   return (
-    <MainContainer title1={title1} height1={'300px'}>
-        <div className='p-3 rounded my-2 bgc' style={{height: '230px'}}>
+    <MainContainer title1={title1} height1={'37vh'}>
+        <div className='p-3 rounded my-2 bgc' style={{height: '280px'}}>
             <Row>
-                <Col xs={4}><div style={{fontSize: '70px', color: 'white', fontWeight: 'bold'}}>88</div></Col>
-                <Col><WiCloudyWindy style={{fontSize: '100px', color: 'white'}} /></Col>
-            </Row>
-            <Row>
-                <Col><div style={{fontSize: '20px', color: 'white', fontWeight: 'bold'}}>As of 12:12 PM <br /> Feb 17, 2023 </div></Col>
+                <Col>
+                  <Row><Col><div style={{fontSize: '70px', color: 'white', fontWeight: 'bold'}}>88</div></Col></Row>
+                  <Row><Col><div style={{fontSize: '20px', color: 'white', fontWeight: 'bold'}}>As of 12:12 PM <br /> Feb 17, 2023 </div></Col></Row>
+                </Col>
+                <Col><WiCloudyWindy style={{fontSize: '250px', color: 'white'}} /></Col>
             </Row>
         </div>
     </MainContainer>

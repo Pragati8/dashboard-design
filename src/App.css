@@ -1,8 +1,21 @@
+
+* {
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  height: 100vh;
+}
+
+
 .App {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2gOp_o0HxgwsnD2iyj3XXC2eFq5Q8KyYD6A&usqp=CAU");
 
   /* Full height */
-  /* height: 100%;  */
+  
 
   /* Center and scale the image nicely */
   /* background-position: center; */
@@ -13,4 +26,14 @@
 
 .bgc {
   background-color: #00000059;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.scroll1::-webkit-scrollbar {
+  width: 10px;
+}
+.scroll1::-webkit-scrollbar-thumb {
+  background-color: rgba(4, 2, 2, 0.587);
+  border-radius: 100px;
 }

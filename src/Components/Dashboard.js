@@ -11,8 +11,10 @@ import NextMeds from './NextMeds';
 import Rounds from './Rounds';
 import Flags from './Flags';
 import Weather from './Weather';
+import Rehab from './Rehab';
 import Footer from './Footer'
 import LogoComp from './LogoComp';
+import './Dashboard.css'
 
 const dashboard = () => {
     // const t1 = [{name:'Vcharan',title:'Dr'}, {name:'Adam Pulmonologist', title: 'RY1'}];
@@ -20,36 +22,32 @@ const dashboard = () => {
     // const t4 = ["Last: 7:15 PM", "Varun"];
 
   return (
-    <div>
-        <Container fluid>
+        <Container className="" fluid style={{}}>
             <Row>
-                <Col><Header title="Room 304-1" /></Col>
+                <Col className='g-3'><Header title="Room 304-1" /></Col>
             </Row>
 
             <Row>
-                <Col xs={2}><Flags title1={"FLAGS"}/></Col>
+                <Col xs={2} className="g-3"><Flags title1={"FLAGS"}/></Col>
                 <Col>
                     <Row>
-                        <Col><CareTeam title1={"CARE TEAM"} /></Col>
-                        <Col><NextMeds title1={"NEXT MEDS"} /></Col>
-                        <Col><Weather title1={"WEATHER"} /></Col>
+                        <Col className="g-3"><CareTeam title1={"CARE TEAM"} /></Col>
+                        <Col className="g-3"><NextMeds title1={"NEXT MEDS"} /></Col>
+                        <Col className="g-3"><Weather title1={"WEATHER"} /></Col>
                     </Row>
                     <Row>
-                        <Col><Rounds title1={"ROUNDS"} /></Col>
-                        <Col><Welcome title1={"WELCOME"} /></Col>
-                        <Col><Col><div className='main-card'><CardComp title="REHAB" c={""} /></div></Col></Col>
+                        <Col className="g-3"><Rounds title1={"ROUNDS"} /></Col>
+                        <Col className="g-3"><Welcome title1={"WELCOME"} /></Col>
+                        <Col className="g-3"><Rehab title1={"REHAB"} /></Col>
                     </Row>
                 </Col>
             </Row>
 
-            <footer style={{marginTop: '180px'}}>
             <Row>
-                <Col><Footer /></Col>
-                <Col xs={1}><LogoComp /></Col>
+                <Col className='g-3'><Footer /></Col>
+                <Col xs={1} className='g-3'><LogoComp /></Col>
             </Row>
-            </footer>
         </Container>
-    </div>
   )
 }
 
